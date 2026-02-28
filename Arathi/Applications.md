@@ -7,4 +7,4 @@
 
 ### documents required : 
 [-] University degree : BA or equivalant 
-[] 
+[-] Proof of knowledge - Transcript of Records
