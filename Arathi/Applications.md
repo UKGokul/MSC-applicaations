@@ -6,5 +6,5 @@
 
 
 ### documents required : 
--[] University degree : BA or equivalant 
+[-] University degree : BA or equivalant 
 [] 
