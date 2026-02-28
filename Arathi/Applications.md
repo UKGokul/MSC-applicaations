@@ -5,6 +5,8 @@
 - website :
 
 
-### documents required : 
-[-] University degree : BA or equivalant 
-[-] Proof of knowledge - Transcript of Records
+### documents missing: 
+
+- [ ] BA-Marksheet is missing
+- [ ] proof of study in germany : SRF certificates are missing
+- [ ] 
