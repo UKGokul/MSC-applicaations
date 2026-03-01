@@ -7,6 +7,6 @@
 
 ### documents missing: 
 
-- [ ] BA-Marksheet is missing
+- [ ] APS certificate
 
 - [ ]  
