@@ -1,5 +1,5 @@
 # applications
-## MSc Economics : j
+## MSc Economics : 
 - application start date : 28-02-2026
 - contact details :
 - website :
