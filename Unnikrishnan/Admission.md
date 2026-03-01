@@ -24,8 +24,8 @@
 - application start date : 15-02-2026 to 31-03-2026
 - contact details :
 - website : https://www.uni-hamburg.de/onTEAM/studiengaenge/mibas.pdf
-- email : 
 ### Pre_requisites
-- at least 90 ECTS in business administration subjects
-- at least 24 ECTS in total in maths, statistics, and micro-economics
-- proficiency either in English
+- GMat
+#### Status
+- NO Gmat, CANT APPLY
+
