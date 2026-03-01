@@ -26,6 +26,6 @@
 - website : https://www.uni-hamburg.de/onTEAM/studiengaenge/mibas.pdf
 ### Pre_requisites
 - GMat
-#### Status
+### Status
 - NO Gmat, CANT APPLY
 
