@@ -8,5 +8,8 @@
 ### documents missing: 
 
 - [ ] APS certificate
-
-- [ ]  
+- [ ] Language certificate
+- [ ] Masters certificate   
+- [ ] Plus two
+- [ ] Tenth
+- [ ] Passport
