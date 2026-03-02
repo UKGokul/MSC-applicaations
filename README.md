@@ -50,6 +50,14 @@ See full plan: `docs/INTERACTIVE_PORTAL_PLAN.md`.
 ---
 
 ## Immediate team workflow (today)
+- **Standardized applicant profile files** for contact, emergency details, and progress.
+- **Application tracker board in Markdown** for quick status at a glance.
+- **Issue templates** to create repeatable workflows for:
+  - new applications
+  - missing documents
+  - deadline reminders
+
+## Recommended team workflow
 
 1. Store all source files in each applicant's folder.
 2. Track each target program as a GitHub Issue using the **Application Intake** template.
@@ -59,6 +67,7 @@ See full plan: `docs/INTERACTIVE_PORTAL_PLAN.md`.
 6. Update `APPLICATION_TRACKER.md` whenever issue status changes.
 
 ---
+6. Update applicant profile markdown whenever contact, status, or document availability changes.
 
 ## Suggested labels to create in GitHub
 
@@ -77,6 +86,11 @@ See full plan: `docs/INTERACTIVE_PORTAL_PLAN.md`.
 - `Applicant` (single select)
 - `University` (text)
 - `Program` (text)
+Create a Project with these custom fields:
+
+- `Applicant` (single select)
+- `University`
+- `Program`
 - `Deadline` (date)
 - `Missing Docs` (text)
 - `Owner` (people)
