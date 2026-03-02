@@ -39,4 +39,24 @@
 ### Pre_requisites
 - Semester contribution of €379
 ### Status
-- NO Gmat, CANT APPLY
+- No International Economic Focus
+
+## M.Sc. Global Tech. & Innovation Management (GTIME) : 
+- University : TU Hamburg (TUHH)
+- application start date : 01-06-2026 to 15-07-2026
+- contact details :https://www.g-time.org/
+- website : https://www.uni-hamburg.de/onTEAM/studiengaenge/mibas.pdf
+### Pre_requisites
+- Has fees ,
+### Status
+-  should check the fees after 01-06
+
+## M.Sc. International Management & Engineering : 
+- University : TU Hamburg (TUHH)
+- application start date : 01-06-2026 to 15-07-2026
+- contact details :
+- website : https://www.uni-hamburg.de/onTEAM/studiengaenge/mibas.pdf](https://www.tuhh.de/tuhh/en/studying/before-studying/degree-courses/masters-programs/international-management-and-engineering
+### Pre_requisites
+- courses in german 
+
+
