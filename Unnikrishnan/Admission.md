@@ -1,5 +1,5 @@
 #Applications
-## MSc Bussiness administration : 
+## 1.MSc Bussiness administration : 
 - University : Uhh 
 - application start date : 01-05-2026 to 15-06-2026
 - contact details :
@@ -11,7 +11,6 @@
 - proficiency either in English
 
 
-
 #### Documents missing: 
 
 - [ ] APS certificate
@@ -21,7 +20,7 @@
 - [ ] Tenth
 - [ ] Passport
 
-## MSc+Innovation,+Business+&+Sustainability+(MIBAS) : 
+## 2.MSc+Innovation,+Business+&+Sustainability+(MIBAS) : 
 - University : Uhh 
 - application start date : 01-04-2026 to 30-09-2026
 - contact details :
@@ -31,7 +30,7 @@
 ### Status
 - NO Gmat, CANT APPLY
 
-## M.Sc. International Business : 
+## 3.M.Sc. International Business : 
 - University : HAW Hamburg
 - application start date : 01-05-2026 to 15-06-2026
 - contact details :
@@ -41,7 +40,7 @@
 ### Status
 - No International Economic Focus
 
-## M.Sc. Global Tech. & Innovation Management (GTIME) : 
+## 4.M.Sc. Global Tech. & Innovation Management (GTIME) : 
 - University : TU Hamburg (TUHH)
 - application start date : 01-06-2026 to 15-07-2026
 - contact details :https://www.g-time.org/
@@ -51,7 +50,7 @@
 ### Status
 -  should check the fees after 01-06
 
-## M.Sc. International Management & Engineering : 
+## 5. M.Sc. International Management & Engineering : 
 - University : TU Hamburg (TUHH)
 - application start date : 01-06-2026 to 15-07-2026
 - contact details :
