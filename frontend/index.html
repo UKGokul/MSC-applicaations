@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Admissions Operations Portal</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <h1>Admissions Operations Portal</h1>
+    <p>Interactive dashboard for applicants, applications, documents, and deadlines.</p>
+  </header>
+
+  <main class="container">
+    <section class="panel stats">
+      <div class="stat-card"><h3>Total Applications</h3><p id="statTotal">0</p></div>
+      <div class="stat-card"><h3>Submitted</h3><p id="statSubmitted">0</p></div>
+      <div class="stat-card"><h3>Blocked</h3><p id="statBlocked">0</p></div>
+      <div class="stat-card"><h3>Due in 14 Days</h3><p id="statDueSoon">0</p></div>
+    </section>
+
+    <section class="panel controls">
+      <h2>Add Application</h2>
+      <form id="applicationForm" class="grid-form">
+        <input required name="applicant" placeholder="Applicant (e.g., Arathi)" />
+        <input required name="university" placeholder="University" />
+        <input required name="program" placeholder="Program" />
+        <input type="date" name="deadline" required />
+        <select name="status" required>
+          <option value="Planning">Planning</option>
+          <option value="In Progress">In Progress</option>
+          <option value="Submitted">Submitted</option>
+          <option value="Blocked">Blocked</option>
+        </select>
+        <input name="missing" placeholder="Missing docs (comma separated)" />
+        <input name="emergency" placeholder="Emergency contact" />
+        <button type="submit">Add</button>
+      </form>
+    </section>
+
+    <section class="panel">
+      <div class="row-between">
+        <h2>Applications</h2>
+        <div class="actions">
+          <button id="exportJsonBtn">Export JSON</button>
+          <label class="import-label">Import JSON <input id="importJsonInput" type="file" accept="application/json" /></label>
+        </div>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Applicant</th>
+              <th>University</th>
+              <th>Program</th>
+              <th>Deadline</th>
+              <th>Status</th>
+              <th>Missing Docs</th>
+              <th>Emergency Contact</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody id="applicationsBody"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>Deadline Reminders</h2>
+      <ul id="reminderList"></ul>
+    </section>
+
+    <section class="panel">
+      <h2>GitHub Issue Draft (Copy/Paste)</h2>
+      <p>Select an application and generate ready-to-paste issue content for GitHub.</p>
+      <div class="row-between">
+        <select id="issueSelect"></select>
+        <button id="generateIssueBtn">Generate Draft</button>
+      </div>
+      <textarea id="issueDraft" rows="12" placeholder="Issue markdown appears here..."></textarea>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <small>Data is stored in your browser (localStorage) for now. Next step: connect this UI to GitHub API.</small>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
