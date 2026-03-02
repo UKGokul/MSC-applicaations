@@ -1,0 +1,101 @@
+:root {
+  --bg: #f5f7fb;
+  --card: #ffffff;
+  --text: #1b1f2a;
+  --muted: #58627a;
+  --primary: #2f6df6;
+  --border: #d9dfec;
+}
+
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+.topbar {
+  background: linear-gradient(135deg, #1d4ed8, #4338ca);
+  color: #fff;
+  padding: 20px;
+}
+.topbar h1 { margin: 0 0 8px; }
+.container {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 0 16px 20px;
+  display: grid;
+  gap: 16px;
+}
+.panel {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 16px;
+}
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 12px;
+}
+.stat-card {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 12px;
+  background: #fbfcff;
+}
+.stat-card h3 { margin: 0 0 8px; font-size: 14px; color: var(--muted); }
+.stat-card p { margin: 0; font-size: 26px; font-weight: 700; }
+.grid-form {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 10px;
+}
+input, select, button, textarea {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 10px;
+  font: inherit;
+}
+button {
+  background: var(--primary);
+  color: #fff;
+  cursor: pointer;
+}
+button:hover { opacity: 0.95; }
+.table-wrap { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; }
+th, td {
+  border-bottom: 1px solid var(--border);
+  text-align: left;
+  padding: 8px;
+  vertical-align: top;
+}
+.row-between {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.actions { display: flex; gap: 8px; align-items: center; }
+.import-label {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 6px 10px;
+  background: #fff;
+}
+.import-label input { display: none; }
+.badge {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 999px;
+  font-size: 12px;
+}
+.badge.Submitted { background: #dcfce7; color: #166534; }
+.badge.Blocked { background: #fee2e2; color: #991b1b; }
+.badge.Planning { background: #e0f2fe; color: #075985; }
+.badge.In\ Progress { background: #fef3c7; color: #92400e; }
+textarea { width: 100%; resize: vertical; }
+.footer { text-align: center; color: var(--muted); padding: 10px 16px 24px; }
+ul#reminderList { margin: 0; padding-left: 18px; }
