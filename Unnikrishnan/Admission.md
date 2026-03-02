@@ -1,5 +1,6 @@
 #Applications
 ## MSc Bussiness administration : 
+- University : Uhh 
 - application start date : 01-05-2026 to 15-06-2026
 - contact details :
 - website : https://www.uni-hamburg.de/en/campuscenter/studienangebot/studiengang.html?1241532969
@@ -21,7 +22,8 @@
 - [ ] Passport
 
 ## MSc+Innovation,+Business+&+Sustainability+(MIBAS) : 
-- application start date : 15-02-2026 to 31-03-2026
+- University : Uhh 
+- application start date : 01-04-2026 to 30-09-2026
 - contact details :
 - website : https://www.uni-hamburg.de/onTEAM/studiengaenge/mibas.pdf
 ### Pre_requisites
@@ -29,3 +31,12 @@
 ### Status
 - NO Gmat, CANT APPLY
 
+## M.Sc. International Business : 
+- University : HAW Hamburg
+- application start date : 01-05-2026 to 15-06-2026
+- contact details :
+- website : https://www.uni-hamburg.de/onTEAM/studiengaenge/mibas.pdf
+### Pre_requisites
+- Semester contribution of €379
+### Status
+- NO Gmat, CANT APPLY
