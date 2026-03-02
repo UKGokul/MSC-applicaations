@@ -26,6 +26,10 @@
       <p class="muted">Token is stored in your browser localStorage. For safety use a dedicated bot token.</p>
     </section>
 
+    <p>Interactive dashboard for applicants, applications, documents, and deadlines.</p>
+  </header>
+
+  <main class="container">
     <section class="panel stats">
       <div class="stat-card"><h3>Total Applications</h3><p id="statTotal">0</p></div>
       <div class="stat-card"><h3>Submitted</h3><p id="statSubmitted">0</p></div>
@@ -75,6 +79,18 @@
       <div class="table-wrap">
         <table>
           <thead><tr><th>Applicant</th><th>University</th><th>Program</th><th>Deadline</th><th>Status</th><th>Missing Docs</th><th>Emergency Contact</th><th>Actions</th></tr></thead>
+          <thead>
+            <tr>
+              <th>Applicant</th>
+              <th>University</th>
+              <th>Program</th>
+              <th>Deadline</th>
+              <th>Status</th>
+              <th>Missing Docs</th>
+              <th>Emergency Contact</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
           <tbody id="applicationsBody"></tbody>
         </table>
       </div>
@@ -90,6 +106,26 @@
   </main>
 
   <footer class="footer"><small id="statusLine">Ready.</small></footer>
+    <section class="panel">
+      <h2>Deadline Reminders</h2>
+      <ul id="reminderList"></ul>
+    </section>
+
+    <section class="panel">
+      <h2>GitHub Issue Draft (Copy/Paste)</h2>
+      <p>Select an application and generate ready-to-paste issue content for GitHub.</p>
+      <div class="row-between">
+        <select id="issueSelect"></select>
+        <button id="generateIssueBtn">Generate Draft</button>
+      </div>
+      <textarea id="issueDraft" rows="12" placeholder="Issue markdown appears here..."></textarea>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <small>Data is stored in your browser (localStorage) for now. Next step: connect this UI to GitHub API.</small>
+  </footer>
+
   <script src="app.js"></script>
 </body>
 </html>
