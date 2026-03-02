@@ -99,3 +99,4 @@ th, td {
 textarea { width: 100%; resize: vertical; }
 .footer { text-align: center; color: var(--muted); padding: 10px 16px 24px; }
 ul#reminderList { margin: 0; padding-left: 18px; }
+.muted { color: var(--muted); font-size: 13px; }

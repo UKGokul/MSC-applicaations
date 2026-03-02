@@ -138,3 +138,39 @@ Then open:
 
 `http://localhost:8080/frontend/`
 
+
+---
+
+## GitHub Pages deployment fix
+
+This repo now includes a root `index.html`, so GitHub Pages at:
+
+`https://ukgokul.github.io/MSC-applicaations/`
+
+will load the correct entry page and redirect to the portal in `frontend/`.
+
+## Live GitHub upload from website
+
+The portal now has:
+- **GitHub Sync Settings** (owner, repo, branch, token, data path)
+- **Push Applications JSON to GitHub** button
+- **Upload Document to Applicant Folder** form
+
+### Where data goes
+- Application records are committed to the file path you set (default: `data/applications.json`).
+- Uploaded documents are committed to:
+  - `<Applicant>/<Subfolder(optional)>/<filename>`
+  - Example: `Arathi/UHH_Economics_MSC/LOM.pdf`
+
+## When you must commit manually
+
+### You do NOT need local commit when:
+- You add/update applications from the deployed website **and click Push Applications JSON to GitHub**.
+- You upload documents from the deployed website upload form.
+
+Those actions create commits directly in GitHub via API.
+
+### You DO need local commit when:
+- You change website code (`index.html`, `frontend/*`, docs, templates).
+- You edit files on your computer and want those code changes in repo.
+
