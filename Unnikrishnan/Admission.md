@@ -58,4 +58,13 @@
 ### Pre_requisites
 - courses in german 
 
+## 6.M.Sc. Economics and Management : 
+- University : Leibniz University Hannover 
+- application start date : 01-06-2026 to 15-07-2026
+- website :https://www.uni-hannover.de/en/studium/studienangebot/info/studiengang/detail/economics-and-management
+### Pre_requisites
+- Has fees ,
+### Status
+-  should check the fees after 01-06
+
 
