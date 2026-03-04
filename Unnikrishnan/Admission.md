@@ -66,5 +66,22 @@
 - Has fees ,
 ### Status
 -  should check the fees after 01-06
+-  
 
+## 7.M.Sc. Business Administration : 
+- University : Uhh 
+- application start date : 01-05-2026 to 15-06-2026
+- website :(https://www.uni-hamburg.de/onTEAM/studiengaenge/betriebswirtschaft-business-administration.pdf)
+### Pre_requisites
+- Language certificate ,
+### Status
+-  
 
+## 8.M.A. Intellectics: The Science of AI : 
+- University : Uhh 
+- application start date : 15-02-2026 to 31-03-2026
+- website :(https://www.uni-hamburg.de/en/campuscenter/studienangebot/studiengang.html?1742214195)
+### Pre_requisites
+- Language certificate ,
+### Status
+-  
