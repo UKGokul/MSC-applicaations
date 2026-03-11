@@ -9,6 +9,23 @@
 <body>
   <header class="topbar">
     <h1>Admissions Operations Portal</h1>
+    <p>Interactive dashboard with optional live GitHub sync.</p>
+  </header>
+
+  <main class="container">
+    <section class="panel">
+      <h2>GitHub Sync Settings</h2>
+      <form id="githubForm" class="grid-form">
+        <input name="owner" placeholder="Owner (e.g., ukgokul)" required />
+        <input name="repo" placeholder="Repo (e.g., MSC-applicaations)" required />
+        <input name="branch" placeholder="Branch" value="main" required />
+        <input name="token" placeholder="GitHub token (repo scope)" required />
+        <input name="dataPath" placeholder="Applications JSON path" value="data/applications.json" required />
+        <button type="submit">Save Settings</button>
+      </form>
+      <p class="muted">Token is stored in your browser localStorage. For safety use a dedicated bot token.</p>
+    </section>
+
     <p>Interactive dashboard for applicants, applications, documents, and deadlines.</p>
   </header>
 
@@ -37,6 +54,18 @@
         <input name="emergency" placeholder="Emergency contact" />
         <button type="submit">Add</button>
       </form>
+      <div class="actions"><button id="syncNowBtn" type="button">Push Applications JSON to GitHub</button></div>
+    </section>
+
+    <section class="panel">
+      <h2>Upload Document to Applicant Folder (GitHub)</h2>
+      <form id="uploadForm" class="grid-form">
+        <input name="docApplicant" placeholder="Applicant folder (e.g., Arathi)" required />
+        <input name="docSubfolder" placeholder="Subfolder (optional, e.g., UHH_Economics_MSC)" />
+        <input name="docMessage" placeholder="Commit message" value="Upload applicant document" required />
+        <input name="docFile" type="file" required />
+        <button type="submit">Upload Document</button>
+      </form>
     </section>
 
     <section class="panel">
@@ -49,6 +78,7 @@
       </div>
       <div class="table-wrap">
         <table>
+          <thead><tr><th>Applicant</th><th>University</th><th>Program</th><th>Deadline</th><th>Status</th><th>Missing Docs</th><th>Emergency Contact</th><th>Actions</th></tr></thead>
           <thead>
             <tr>
               <th>Applicant</th>
@@ -66,6 +96,16 @@
       </div>
     </section>
 
+    <section class="panel"><h2>Deadline Reminders</h2><ul id="reminderList"></ul></section>
+
+    <section class="panel">
+      <h2>GitHub Issue Draft (Copy/Paste)</h2>
+      <div class="row-between"><select id="issueSelect"></select><button id="generateIssueBtn">Generate Draft</button></div>
+      <textarea id="issueDraft" rows="10"></textarea>
+    </section>
+  </main>
+
+  <footer class="footer"><small id="statusLine">Ready.</small></footer>
     <section class="panel">
       <h2>Deadline Reminders</h2>
       <ul id="reminderList"></ul>
